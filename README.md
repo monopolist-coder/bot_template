@@ -20,6 +20,6 @@ python -m venv venv
 .\venv\Scripts\Activate
 
 
-## Настройка
+Настройка
 ```md
 Создайте файл `.env` на основе `.env.example` и укажите токен бота.
