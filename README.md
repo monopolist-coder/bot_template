@@ -1,25 +1,38 @@
-# Bot Template
+# Telegram Bot Template
 
-Универсальный шаблон Telegram-бота на aiogram 3 с чистой и понятной структурой проекта.
-Подходит как стартовая база для разработки ботов под разные задачи.
+Universal Telegram bot template built with aiogram 3.
 
+## Features
+
+- Clean architecture
 - aiogram 3
-- структура по слоям
-- SQLite
-- .env конфиг
-- стартовые handlers
-- главное меню
-- база для дальнейшего расширения
+- SQLite database
+- .env configuration
+- Modular project structure
 
-## Установка
+## Project structure
 
-```bash
-git clone <repo_url>
+bot_project/
+app/
+handlers/
+services/
+database/
+keyboards/
+
+## Installation
+
+git clone <repo>
 cd bot_project
+
 python -m venv venv
-.\venv\Scripts\Activate
+pip install -r requirements.txt
 
+## Configuration
 
-Настройка
-```md
-Создайте файл `.env` на основе `.env.example` и укажите токен бота.
+Create .env file:
+
+BOT_TOKEN=your_token
+
+## Run
+
+python bot.py
